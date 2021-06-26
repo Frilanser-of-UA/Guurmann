@@ -1445,7 +1445,7 @@ body._lock {
   }
 
   .images-fullscreen {
-    top: 5%;
+    top: 4%;
   }
 
   .images-fullscreen__img_position-1 {
@@ -1672,6 +1672,10 @@ body._lock {
 }
 
 @media screen and (max-height: 420px) {
+  .images-fullscreen {
+    top: 10%;
+  }
+
   .images-fullscreen__img {
     width: 13%;
   }
@@ -1710,6 +1714,18 @@ body._lock {
 
   .images-fullscreen__img_position-8 {
     top: 150%;
+  }
+}
+
+@media screen and (max-height: 380px) {
+  .images-fullscreen {
+    top: 25%;
+  }
+}
+
+@media screen and (max-height: 340px) {
+  .images-fullscreen {
+    top: 40%;
   }
 }
 
